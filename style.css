@@ -27,8 +27,29 @@ ul {
   background: white;
   padding: 20px;
   border-radius: 10px;
+  list-style-type: none;
 }
 
 li {
   margin: 10px 0;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: #2563eb;
+}
+
+a:active {
+  color: #1e3a8a;
 }
