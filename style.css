@@ -40,8 +40,6 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+a: hover {
   color: #2563eb;
-}
-  color: #1e3a8a;
 }
