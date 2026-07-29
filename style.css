@@ -37,6 +37,31 @@ a {
   color: inherit;
   font-weight: bold;
 }
-a:hover {        /* fixed: removed the space */
+a:hover {
   color: #2563eb;
+}
+.flow-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.flow-box {
+    background: #f4f8ff;
+    border: 2px solid #4a78d4;
+    border-radius: 10px;
+    padding: 12px 18px;
+    min-width: 100px;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.flow-arrow {
+    font-size: 1.6rem;
+    color: #4a78d4;
+    font-weight: bold;
 }
